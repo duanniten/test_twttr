@@ -6,6 +6,7 @@ def main():
     print("Output:", new_text)
 
 def shorten(word: str):
+    word = str(word)
     vowels = [
             'A', 'a',
             'E', 'e',
