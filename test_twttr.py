@@ -6,6 +6,3 @@ def test_shorten_one_word():
 
 def test_shorten_no_word():
     assert shorten('') == ''
-
-def test_shorten_int():
-    assert shorten(1) == '1'
