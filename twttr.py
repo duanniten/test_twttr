@@ -6,12 +6,19 @@ def main():
     print("Output:", new_text)
 
 def shorten(word: str):
-    vowels = [
+    """ vowels = [
             'A', 'a',
             'E', 'e',
             'I', 'i',
             'O', 'o', 
             'U', 'u'
+            ] """
+    vowels = [
+            'a',
+            'e',
+            'i',
+            'o', 
+            'u'
             ]
     new_word = ""
     for lether in word:
